@@ -1,7 +1,7 @@
-# java-web-maven-blade-api
+# java-web-gradle-blade-api
 
 ## Description
-A POC for blade framework rendering html page intercepted with middleware.
+A POC for blade framework.
 
 ## Tech stack
 - cors
@@ -10,7 +10,7 @@ A POC for blade framework rendering html page intercepted with middleware.
     - get, put, delete
 
 ## Docker stack
-- maven:3-openjdk-17
+- gradle:7.6.4-jdk11-alpine
 
 ## To run
 `sudo ./install.sh -u`
